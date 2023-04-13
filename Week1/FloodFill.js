@@ -42,3 +42,6 @@ const fill = (image, sr, sc, color, visited, startColor) => {
 
   return image;
 } 
+
+//Time O(r * c) r = # number of rows, c = # of columns
+//Space O( r * c)
